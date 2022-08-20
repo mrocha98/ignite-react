@@ -1,0 +1,43 @@
+{
+  "name": "ignite-react",
+  "version": "0.0.0",
+  "private": false,
+  "description": "monorepo with React.js applications developed in Rocketseat's Ignite",
+  "keywords": [
+    "react",
+    "typescript",
+    "monorepo",
+    "rocketseat",
+    "ignite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:mrocha98/ignite-react.git"
+  },
+  "license": "BSD-3-Clause-Clear",
+  "author": "Matheus Rocha <matheus_rocha98@outlook.com> [https://mrocha.xyz]",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "pnpm run sort",
+    "prepare": "husky install",
+    "root:lint": "pnpm run --if-present --recursive lint",
+    "root:typecheck": "pnpm run --if-present --recursive typecheck",
+    "sort": "sort-package-json & pnpm --parallel exec sort-package-json"
+  },
+  "dependencies": {
+    "@ignite-react/eslint": "workspace:*",
+    "@types/react": "~18.0.17",
+    "@types/react-dom": "~18.0.6",
+    "@vitejs/plugin-react": "~2.0.1",
+    "husky": "~8.0.1",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "sort-package-json": "~1.57.0",
+    "typescript": "~4.6.4",
+    "vite": "~3.0.7"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  }
+}

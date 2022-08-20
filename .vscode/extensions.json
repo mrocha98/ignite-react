@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv",
+    "styled-components.vscode-styled-components",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "zixuanchen.vitest-explorer",
+    "wix.vscode-import-cost"
+  ]
+}
