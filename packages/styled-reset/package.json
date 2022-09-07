@@ -1,0 +1,17 @@
+{
+  "name": "@ignite-react/styled-reset",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite --host --cors --open --port 3007",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "styled-components": "~5.3.5"
+  }
+}

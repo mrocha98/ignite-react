@@ -18,6 +18,7 @@
   "author": "Matheus Rocha <matheus_rocha98@outlook.com> [https://mrocha.xyz]",
   "main": "index.js",
   "scripts": {
+    "clear:dist": "pnpm --parallel exec rimraf dist",
     "postinstall": "pnpm run sort",
     "prepare": "husky install",
     "root:lint": "pnpm run --if-present --recursive lint",
@@ -28,11 +29,15 @@
     "@ignite-react/eslint": "workspace:*",
     "@types/react": "~18.0.17",
     "@types/react-dom": "~18.0.6",
+    "@types/styled-components": "~5.1.26",
     "@vitejs/plugin-react": "~2.0.1",
     "husky": "~8.0.1",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
+    "react-router-dom": "~6.3.0",
+    "rimraf": "~3.0.2",
     "sort-package-json": "~1.57.0",
+    "styled-components": "~5.3.5",
     "typescript": "~4.6.4",
     "vite": "~3.0.7"
   },

@@ -4,5 +4,6 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "target": "ESNEXT"
-  }
+  },
+  "exclude": ["node_modules"]
 }

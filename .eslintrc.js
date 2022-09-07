@@ -1,5 +1,5 @@
-const base = require('@ignite-react/eslint')
+const base = require('@ignite-react/eslint');
 
 module.exports = {
-  ...base
-}
+  ...base,
+};
